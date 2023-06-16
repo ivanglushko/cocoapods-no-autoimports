@@ -32,3 +32,9 @@ Done! Now go and check your Xcode build erros 😁
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Additional Info
+
+* This gem is distributed via [RubyGems.org](https://rubygems.org/gems/cocoapods-no-autoimports)
+* Special thanks to [Keith's](https://github.com/keith/cocoapods-foundation-headers/tree/master) repo got me started 
+* This [ticket](https://github.com/CocoaPods/CocoaPods/issues/6815) was the problem for us as well so I decided to built a plugin
