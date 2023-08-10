@@ -16,7 +16,11 @@ gem 'cocoapods-no-autoimports'
 Add this line to your Podfile:
 ```ruby
 plugin 'cocoapods-no-autoimports'
+# cocoapods-no-autoimports__pods = ['YourPod__Core', 'YourPod__UI']
 ```
+
+The plugin will parse the Podfile and look for `cocoapods-no-autoimports__pods` key.
+Make sure to list your pods to which you want to apply plugin to in `cocoapods-no-autoimports__pods` array. It got to be comment in 1 line.
 
 Execute:
 
